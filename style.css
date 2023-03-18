@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    margin-left: 48%;
+    margin-top: 2rem;
+    background-color: green;
+    font-size: 1.5rem;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: lightgreen;
+    color: black;
+}
+
+table, td { 
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 0.5rem;
+}
+
+h1 {
+    color: red;
+}
+
+#postsH, #productsH, #todosH {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+#todos, #posts, #products {
+    /* display: flex;
+    flex-direction: column; */
+    width: 100%;
+}
